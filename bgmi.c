@@ -60,7 +60,7 @@ int main(int argc, char *argv[]) {
     char *ip = argv[1];
     int port = atoi(argv[2]);
     int time = atoi(argv[3]);
-    int threads = DEFAULT_THREADS; // Fixed number of threads to 999
+    int threads = DEFAULT_THREADS; // Fixed number of threads to 900
 
     pthread_t *thread_ids = malloc(threads * sizeof(pthread_t));
 
